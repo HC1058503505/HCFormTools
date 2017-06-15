@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAED68551EF0DE9000EA799C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED68541EF0DE9000EA799C /* AppDelegate.swift */; };
+		BAED68571EF0DE9000EA799C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED68561EF0DE9000EA799C /* ViewController.swift */; };
+		BAED685A1EF0DE9000EA799C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAED68581EF0DE9000EA799C /* Main.storyboard */; };
+		BAED685C1EF0DE9000EA799C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAED685B1EF0DE9000EA799C /* Assets.xcassets */; };
+		BAED685F1EF0DE9000EA799C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAED685D1EF0DE9000EA799C /* LaunchScreen.storyboard */; };
+		BAED68671EF0DF4F00EA799C /* HCPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAED68661EF0DF4F00EA799C /* HCPieChartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAED68511EF0DE9000EA799C /* HCFormTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCFormTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAED68541EF0DE9000EA799C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAED68561EF0DE9000EA799C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAED68591EF0DE9000EA799C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAED685B1EF0DE9000EA799C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAED685E1EF0DE9000EA799C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAED68601EF0DE9000EA799C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAED68661EF0DF4F00EA799C /* HCPieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCPieChartView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAED684E1EF0DE9000EA799C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAED68481EF0DE9000EA799C = {
+			isa = PBXGroup;
+			children = (
+				BAED68531EF0DE9000EA799C /* HCFormTools */,
+				BAED68521EF0DE9000EA799C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAED68521EF0DE9000EA799C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAED68511EF0DE9000EA799C /* HCFormTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAED68531EF0DE9000EA799C /* HCFormTools */ = {
+			isa = PBXGroup;
+			children = (
+				BAED68541EF0DE9000EA799C /* AppDelegate.swift */,
+				BAED68561EF0DE9000EA799C /* ViewController.swift */,
+				BAED68661EF0DF4F00EA799C /* HCPieChartView.swift */,
+				BAED68581EF0DE9000EA799C /* Main.storyboard */,
+				BAED685B1EF0DE9000EA799C /* Assets.xcassets */,
+				BAED685D1EF0DE9000EA799C /* LaunchScreen.storyboard */,
+				BAED68601EF0DE9000EA799C /* Info.plist */,
+			);
+			path = HCFormTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAED68501EF0DE9000EA799C /* HCFormTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAED68631EF0DE9000EA799C /* Build configuration list for PBXNativeTarget "HCFormTools" */;
+			buildPhases = (
+				BAED684D1EF0DE9000EA799C /* Sources */,
+				BAED684E1EF0DE9000EA799C /* Frameworks */,
+				BAED684F1EF0DE9000EA799C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCFormTools;
+			productName = HCFormTools;
+			productReference = BAED68511EF0DE9000EA799C /* HCFormTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAED68491EF0DE9000EA799C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = UltraPower;
+				TargetAttributes = {
+					BAED68501EF0DE9000EA799C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7493A8H4M8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BAED684C1EF0DE9000EA799C /* Build configuration list for PBXProject "HCFormTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAED68481EF0DE9000EA799C;
+			productRefGroup = BAED68521EF0DE9000EA799C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAED68501EF0DE9000EA799C /* HCFormTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAED684F1EF0DE9000EA799C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAED685F1EF0DE9000EA799C /* LaunchScreen.storyboard in Resources */,
+				BAED685C1EF0DE9000EA799C /* Assets.xcassets in Resources */,
+				BAED685A1EF0DE9000EA799C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAED684D1EF0DE9000EA799C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAED68571EF0DE9000EA799C /* ViewController.swift in Sources */,
+				BAED68551EF0DE9000EA799C /* AppDelegate.swift in Sources */,
+				BAED68671EF0DF4F00EA799C /* HCPieChartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAED68581EF0DE9000EA799C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAED68591EF0DE9000EA799C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAED685D1EF0DE9000EA799C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAED685E1EF0DE9000EA799C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAED68611EF0DE9000EA799C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAED68621EF0DE9000EA799C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAED68641EF0DE9000EA799C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7493A8H4M8;
+				INFOPLIST_FILE = HCFormTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houcong.Sunny.HCFormTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BAED68651EF0DE9000EA799C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7493A8H4M8;
+				INFOPLIST_FILE = HCFormTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houcong.Sunny.HCFormTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAED684C1EF0DE9000EA799C /* Build configuration list for PBXProject "HCFormTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAED68611EF0DE9000EA799C /* Debug */,
+				BAED68621EF0DE9000EA799C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAED68631EF0DE9000EA799C /* Build configuration list for PBXNativeTarget "HCFormTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAED68641EF0DE9000EA799C /* Debug */,
+				BAED68651EF0DE9000EA799C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAED68491EF0DE9000EA799C /* Project object */;
+}
